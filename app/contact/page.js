@@ -11,8 +11,7 @@ export default function contact() {
   const [formData, setFormData] = useState({
     name: '', email: '', company: '', message: '', service: '',
   })
-  const [status, setStatus] = useState('idle') //idle |
-  loading | success | error
+  const [status, setStatus] = useState('idle') //idle | loading | success | error
   const [errorMsg, setErrorMsg] = useState('')
 
   const handleChange = (e) => {
