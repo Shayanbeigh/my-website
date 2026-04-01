@@ -21,31 +21,34 @@ export default function contact() {
   }
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    setStatus('loading')
-    setErrorMsg('')
+  e.preventDefault()
+  setStatus('loading')
 
-    try {
-      const res = await fetch('api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json'},
-        body: JSON.stringify(formData),
-      })
-
-      const data = await res.json()
-
-      if (res.ok) {
-        setStatus('success')
-      }
-      else{
-        setStatus('error')
-        setErrorMsg(data.error || 'Something went wrong.')
-      }
-    }catch (err){
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        access_key: 'YOUR_WEB3FORMS_KEY',
+        name: formData.name,
+        email: formData.email,
+        company: formData.company,
+        service: formData.service,
+        message: formData.message,
+      }),
+    })
+    const data = await res.json()
+    if (data.success) {
+      setStatus('success')
+    } else {
       setStatus('error')
-      setErrorMsg('Network error. Please try again.')
+      setErrorMsg('Something went wrong.')
     }
+  } catch (err) {
+    setStatus('error')
+    setErrorMsg('Network error. Please try again.')
   }
+}
 
   const inputStyle = {
     width: '100%',

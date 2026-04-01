@@ -11,17 +11,20 @@ export default function Footer() {
     setStatus('error')
     return
   }
-
   setStatus('loading')
-
   try {
-    const res = await fetch('/api/subscribe', {
+    const res = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email }),
+      body: JSON.stringify({
+        access_key: 'YOUR_WEB3FORMS_KEY',
+        email: email,
+        subject: 'New newsletter subscriber - my-website',
+        message: 'New subscriber: ' + email,
+      }),
     })
-
-    if (res.ok) {
+    const data = await res.json()
+    if (data.success) {
       setEmail('')
       setStatus('success')
     } else {
