@@ -40,7 +40,7 @@ export default function Navbar() {
           letterSpacing: '-0.5px',
           fontFamily: 'Bricolage Grotesque, sans-serif',
         }}>
-          Talent Genie
+          Hire Genie
         </Link>
 
         {/* Desktop Links */}

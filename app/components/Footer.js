@@ -57,7 +57,7 @@ export default function Footer() {
               fontWeight: '800',
               letterSpacing: '-0.5px',
               marginBottom: '16px',
-            }}>Talent Genie</h3>
+            }}>Hire Genie</h3>
             <p style={{
               fontSize: '14px',
               color: '#888',
@@ -219,7 +219,7 @@ export default function Footer() {
           gap: '16px',
         }}>
           <p style={{ fontSize: '13px', color: '#555', margin: 0 }}>
-            © 2025 Talent Genie. Built for teams that mean business.
+            © 2025 Hire Genie. Built for teams that mean business.
           </p>
           <a href="#" style={{ fontSize: '13px', color: '#555', textDecoration: 'none' }}>
             Privacy Policy
