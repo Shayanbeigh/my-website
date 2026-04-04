@@ -49,9 +49,9 @@ export default function Hero() {
           maxWidth: '800px',
           marginBottom: '24px',
         }}>
-        The right talent.{' '}
-        <span style={{ color: '#4f46e5' }}>The right mission.</span>
-        {' '}The right time.
+        We don't fill roles.{' '}
+        <span style={{ color: '#4f46e5' }}>We build the teams.</span>
+        {' '}That build the future.
       </motion.h1>
 
       <motion.p
