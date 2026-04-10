@@ -45,7 +45,7 @@ export default function About() {
               lineHeight: '1.8',
               marginBottom: '16px',
             }}>
-              my-website was founded on a simple belief — that finding the right
+              Recruit Vertex was founded on a simple belief — that finding the right
               engineer shouldn't take months, cost a fortune, or feel like a gamble.
               We've built a smarter way.
             </p>

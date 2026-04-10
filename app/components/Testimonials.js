@@ -5,7 +5,7 @@ import FadeIn from './FadeIn'
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: 'my-website didn\'t just send us engineers — they sent us the right engineers. First hire, perfect fit. We\'ve never looked back.',
+      quote: 'Rexruit Vertex didn\'t just send us engineers — they sent us the right engineers. First hire, perfect fit. We\'ve never looked back.',
       name: 'VP of Engineering',
       company: 'Series B SaaS Company, USA',
     },

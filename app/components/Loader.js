@@ -42,7 +42,7 @@ export default function Loader() {
               fontFamily: 'Bricolage Grotesque, sans-serif',
             }}
           >
-            my-website
+            Recruit Vertex
           </motion.h1>
 
           {/* Loading bar */}

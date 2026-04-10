@@ -4,7 +4,7 @@ import Loader from './components/Loader'
 import BackToTop from './components/BackToTop'
 
 export const metadata = {
-  title: 'my-website | Global Tech Talent Partners',
+  title: 'Recruit Vertex | Global Tech Talent Partners',
   description: 'Connecting exceptional tech talent with ambitious companies across the globe.',
 }
 

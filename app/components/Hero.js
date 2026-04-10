@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { motion, px } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 export default function Hero() {
   return (
@@ -49,9 +49,9 @@ export default function Hero() {
           maxWidth: '800px',
           marginBottom: '24px',
         }}>
-        We don't fill roles.{' '}
-        <span style={{ color: '#4f46e5' }}>We build the teams.</span>
-        {' '}That build the future.
+        The right talent.{' '}
+        <span style={{ color: '#4f46e5' }}>The right mission.</span>
+        {' '}The right time.
       </motion.h1>
 
       <motion.p
@@ -65,7 +65,7 @@ export default function Hero() {
           lineHeight: '1.7',
           marginBottom: '40px',
         }}>
-        Talent Ginie connects ambitious companies with exceptional talent across the globe —
+        Recruit Vertex connects ambitious companies with exceptional tech talent across the globe —
         faster, smarter, and without the usual headaches.
       </motion.p>
 
@@ -80,7 +80,7 @@ export default function Hero() {
           flexWrap: 'wrap',
           justifyContent: 'center',
         }}>
-        <Link href="    contact" style={{
+        <Link href="/contact" style={{
           backgroundColor: '#1a1a1a',
           color: '#fff',
           padding: '14px 32px',
@@ -92,7 +92,7 @@ export default function Hero() {
           Start Hiring Smarter
         </Link>
 
-        <Link href="#about" style={{
+        <Link href="/about" style={{
           backgroundColor: 'transparent',
           color: '#1a1a1a',
           padding: '14px 32px',
@@ -121,7 +121,7 @@ export default function Hero() {
         {[
           { number: '300+', label: 'Placements Worldwide' },
           { number: '96%', label: 'Client Satisfaction' },
-          { number: '10+', label: 'Countries Served' },
+          { number: '20+', label: 'Countries Served' },
         ].map((stat) => (
           <div key={stat.label} style={{ textAlign: 'center' }}>
             <div style={{

@@ -12,9 +12,9 @@ const values = [
 ]
 
 const team = [
-  { name: 'Adeeba', role: 'Founder & CEO', location: 'New Delhi, India' },
-  { name: 'Sara Al Mansoori', role: 'Head of Client Success', location: 'Dubai, UAE' },
-  { name: 'qwert', role: 'Lead Talent Partner', location: 'London, UK' },
+  { name: 'Adeeba Nisar', role: 'Founder & CEO', location: 'New Delhi, India' },
+  { name: 'Sara Al Masood', role: 'Head of Client Success', location: 'Dubai, UAE' },
+  { name: 'Be te che', role: 'Lead Talent Partner', location: 'London, UK' },
   { name: 'Priya Nair', role: 'Engineering Recruiter', location: 'Bangalore, India' },
 ]
 
@@ -44,7 +44,7 @@ export default function About() {
               marginBottom: '24px',
             }}>How it started</h2>
             <p style={{ fontSize: '17px', color: '#555', lineHeight: '1.9', marginBottom: '20px' }}>
-              my-website was born out of frustration. Our founders had spent years on both sides of the hiring table —
+              Recruit Vertex was born out of frustration. Our founders had spent years on both sides of the hiring table —
               as engineers who'd been through awful recruitment processes, and as operators who couldn't find the right
               talent fast enough. The market was full of agencies that treated people like transactions.
             </p>
@@ -117,7 +117,7 @@ export default function About() {
               <h2 style={{
                 fontSize: 'clamp(24px, 3vw, 40px)', fontWeight: '800',
                 color: '#1a1a1a', letterSpacing: '-1px',
-              }}>The people behind my-website</h2>
+              }}>The people behind Recruit Vertex</h2>
             </div>
           </FadeIn>
 

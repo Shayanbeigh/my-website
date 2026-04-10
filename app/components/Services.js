@@ -17,7 +17,7 @@ export default function Services() {
     icon: '🌍',
     title: 'Global Reach',
     subtitle: 'Talent without boundaries',
-    description: 'From Bangalore to Berlin, Dubai to Delaware — our network spans 20+ countries. We find exceptional engineers wherever they are and bring them to where you need them.',
+    description: 'From Bangalore to Berlin, Dubai to Delaware — our network spans 10+ countries. We find exceptional engineers wherever they are and bring them to where you need them.',
     cta: 'Explore Our Network',
     href: '/about',
   },

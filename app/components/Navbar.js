@@ -31,17 +31,16 @@ export default function Navbar() {
         alignItems: 'center',
         justifyContent: 'space-between',
       }}>
-
-        <Link href="/" style={{
-          fontSize: '22px',
-          fontWeight: '800',
-          color: '#1a1a1a',
-          textDecoration: 'none',
-          letterSpacing: '-0.5px',
-          fontFamily: 'Bricolage Grotesque, sans-serif',
-        }}>
-          Hire Genie
-        </Link>
+<Link href="/" style={{
+  fontSize: '22px',
+  fontWeight: '800',
+  color: '#1a1a1a',
+  textDecoration: 'none',
+  letterSpacing: '-0.5px',
+  fontFamily: 'Bricolage Grotesque, sans-serif',
+}}>
+  Recruit Vertex
+</Link>
 
         {/* Desktop Links */}
         <div className="nav-links" style={{
