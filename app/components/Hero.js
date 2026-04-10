@@ -121,7 +121,7 @@ export default function Hero() {
         {[
           { number: '300+', label: 'Placements Worldwide' },
           { number: '96%', label: 'Client Satisfaction' },
-          { number: '20+', label: 'Countries Served' },
+          { number: '10+', label: 'Countries Served' },
         ].map((stat) => (
           <div key={stat.label} style={{ textAlign: 'center' }}>
             <div style={{

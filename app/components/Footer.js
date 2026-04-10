@@ -225,8 +225,8 @@ export default function Footer() {
           gap: '16px',
         }}>
           <p style={{ fontSize: '13px', color: '#555', margin: 0 }}>
-            2025 Talent Vertex. Built for teams that mean business.
-          </p>
+  © 2025 Recruit Vertex. Built for teams that mean business.
+</p>
           <Link href="/privacy" style={{ fontSize: '13px', color: '#555', textDecoration: 'none' }}>
             Privacy Policy
           </Link>
