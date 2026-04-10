@@ -60,7 +60,7 @@ export default function Footer() {
               letterSpacing: '-0.5px',
               marginBottom: '16px',
               fontFamily: 'Bricolage Grotesque, sans-serif',
-            }}>Hire Genie</h3>
+            }}>Recruit Vertex</h3>
             <p style={{
               fontSize: '14px',
               color: '#888',
@@ -110,9 +110,9 @@ export default function Footer() {
               marginBottom: '20px',
             }}>Contact</h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <a href="mailto:hello@hiregenie.co" style={{
+              <a href="mailto:hello@talentvertex.co" style={{
                 color: '#aaa', textDecoration: 'none', fontSize: '14px',
-              }}>hello@hiregenie.co</a>
+              }}>hello@talentvertex.co</a>
               <p style={{ color: '#aaa', fontSize: '14px', margin: 0 }}>New Delhi, India</p>
               <p style={{ color: '#aaa', fontSize: '14px', margin: 0 }}>New York · London · Dubai</p>
               <a href="https://linkedin.com/company/hire-genie0/?viewAsMember=true" target="_blank" style={{
