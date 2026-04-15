@@ -41,7 +41,7 @@ export default function Privacy() {
               },
               {
                 title: 'Your rights',
-                body: 'You have the right to access, correct, or delete your personal data at any time. To exercise these rights, please contact us at hello@recruitvertex.co and we will respond within 5 business days.',
+                body: 'You have the right to access, correct, or delete your personal data at any time. To exercise these rights, please contact us at contact@recruitvertex.com and we will respond within 5 business days.',
               },
               {
                 title: 'Cookies',
@@ -49,7 +49,7 @@ export default function Privacy() {
               },
               {
                 title: 'Contact us',
-                body: 'If you have any questions about this Privacy Policy, please contact us at hello@recruitvertex.co.',
+                body: 'If you have any questions about this Privacy Policy, please contact us at contact@recruitvertex.com.',
               },
             ].map((section, i) => (
               <div key={i} style={{ marginBottom: '40px' }}>

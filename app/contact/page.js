@@ -97,7 +97,7 @@ export default function Contact() {
               </p>
 
               {[
-                { icon: '📧', label: 'Email', value: 'hello@recruitvertex.co' },
+                { icon: '📧', label: 'Email', value: 'contact@recruitvertex.com' },
                 { icon: '📍', label: 'Headquarters', value: 'New Delhi, India' },
                 { icon: '🌍', label: 'Also in', value: 'New York · London · Dubai' },
                 { icon: '⏱️', label: 'Response time', value: 'Within 1 business day' },

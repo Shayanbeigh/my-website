@@ -110,12 +110,12 @@ export default function Footer() {
               marginBottom: '20px',
             }}>Contact</h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <a href="mailto:hello@talentvertex.co" style={{
+              <a href="mailto:contact@recruitvertex.com" style={{
                 color: '#aaa', textDecoration: 'none', fontSize: '14px',
-              }}>hello@talentvertex.co</a>
+              }}>contact@recruitvertex.com</a>
               <p style={{ color: '#aaa', fontSize: '14px', margin: 0 }}>New Delhi, India</p>
               <p style={{ color: '#aaa', fontSize: '14px', margin: 0 }}>New York · London · Dubai</p>
-              <a href="https://linkedin.com/company/hire-genie0/?viewAsMember=true" target="_blank" style={{
+              <a href="https://linkedin.com/in/adeeba-nisar-20997b1b4" target="_blank" style={{
                 color: '#aaa', textDecoration: 'none', fontSize: '14px',
               }}>LinkedIn →</a>
             </div>
