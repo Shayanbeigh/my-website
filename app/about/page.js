@@ -4,6 +4,11 @@ import Footer from '../components/Footer'
 import FadeIn from '../components/FadeIn'
 import PageTransition from '../components/PageTransition'
 
+export const metadata = {
+  title: 'About Us | Recruit Vertex',
+  description: 'Learn about Recruit Vertex — a global tech recruitment firm built to make great hiring feel effortless.',
+}
+
 const values = [
   { icon: '🎯', title: 'Quality over volume', desc: 'We would rather send you three great candidates than thirty average ones. Every profile we share has been personally vetted.' },
   { icon: '🤝', title: 'Radical honesty', desc: 'If your brief is off, we will tell you. If a candidate is not quite right, we will say so. No fluff, no false promises.' },

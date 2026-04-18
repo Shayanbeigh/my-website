@@ -5,6 +5,11 @@ import FadeIn from '../components/FadeIn'
 import PageTransition from '../components/PageTransition'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Solutions | Recruit Vertex',
+  description: 'Direct placement, offshore team building, contract staffing and talent advisory — built around your goals.',
+} 
+
 const solutions = [
   {
     icon: '🎯',

@@ -4,8 +4,16 @@ import Loader from './components/Loader'
 import BackToTop from './components/BackToTop'
 
 export const metadata = {
-  title: 'Recruit Vertex | Global Tech Talent Partners',
-  description: 'Connecting exceptional tech talent with ambitious companies across the globe.',
+  title: 'Recruit Vertex | Global Tech Recruitment & Offshore Development Teams',
+  description: 'Recruit Vertex helps companies hire exceptional tech talent globally. Specialising in direct placement, offshore team building, and contract staffing across the US, Europe, Middle East and India.',
+  keywords: 'tech recruitment, global tech talent, offshore development team, hire engineers, IT recruitment, software developer recruitment',
+  openGraph: {
+    title: 'Recruit Vertex | Global Tech Recruitment',
+    description: 'Connecting exceptional tech talent with ambitious companies across the globe.',
+    url: 'https://recruitvertex.com',
+    siteName: 'Recruit Vertex',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }) {

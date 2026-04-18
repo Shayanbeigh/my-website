@@ -5,6 +5,11 @@ import FadeIn from '../components/FadeIn'
 import PageTransition from '../components/PageTransition'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Insights | Recruit Vertex',
+  description: 'Practical perspectives on hiring, global teams, and tech talent from the frontlines of recruitment.',
+}
+
 const posts = [
   {
     slug: 'why-tech-job-descriptions-fail',
