@@ -104,59 +104,91 @@ export default function About() {
         </section>
 
         <section style={{ padding: '100px 40px', backgroundColor: '#fff' }}>
-          <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-            <FadeIn>
-              <div style={{ textAlign: 'center', marginBottom: '64px' }}>
-                <p style={{
-                  fontSize: '13px', fontWeight: '600', letterSpacing: '2px',
-                  textTransform: 'uppercase', color: '#4f46e5', marginBottom: '16px',
-                }}>The Team</p>
-                <h2 style={{
-                  fontSize: 'clamp(24px, 3vw, 40px)', fontWeight: '800',
-                  color: '#1a1a1a', letterSpacing: '-1px',
-                }}>The people behind Recruit Vertex</h2>
-              </div>
-            </FadeIn>
+  <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
+    <FadeIn>
+      <div style={{ textAlign: 'center', marginBottom: '64px' }}>
+        <p style={{
+          fontSize: '13px', fontWeight: '600', letterSpacing: '2px',
+          textTransform: 'uppercase', color: '#4f46e5', marginBottom: '16px',
+        }}>Why Us</p>
+        <h2 style={{
+          fontSize: 'clamp(24px, 3vw, 40px)', fontWeight: '800',
+          color: '#1a1a1a', letterSpacing: '-1px',
+        }}>What makes us different</h2>
+      </div>
+    </FadeIn>
 
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-              gap: '24px',
-            }}>
-              {team.map((member, i) => (
-                <FadeIn key={i} delay={i * 0.1}>
-                  <div style={{
-                    backgroundColor: '#fafafa',
-                    borderRadius: '16px',
-                    padding: '36px',
-                    border: '1px solid #ebebeb',
-                    textAlign: 'center',
-                  }}>
-                    <div style={{
-                      width: '64px',
-                      height: '64px',
-                      borderRadius: '50%',
-                      backgroundColor: '#4f46e5',
-                      color: '#fff',
-                      fontSize: '22px',
-                      fontWeight: '800',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      margin: '0 auto 20px',
-                    }}>
-                      {member.name.charAt(0)}
-                    </div>
-                    <h3 style={{ fontSize: '16px', fontWeight: '700', color: '#1a1a1a', marginBottom: '6px' }}>{member.name}</h3>
-                    <p style={{ fontSize: '14px', color: '#4f46e5', fontWeight: '600', marginBottom: '6px' }}>{member.role}</p>
-                    <p style={{ fontSize: '13px', color: '#888' }}>{member.location}</p>
-                  </div>
-                </FadeIn>
-              ))}
-            </div>
+    <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '24px',
+    }}>
+      {[
+        {
+          stat: '< 14 days',
+          title: 'Average time to first shortlist',
+          desc: 'Most agencies take 4-6 weeks to send you candidates. We move in under two weeks — without cutting corners on quality. Speed is built into our process, not bolted on.',
+        },
+        {
+          stat: '3:1',
+          title: 'Candidate to placement ratio',
+          desc: 'We send you three candidates, you hire one. That is our benchmark. We would rather spend more time finding the right three than overwhelm you with thirty average profiles.',
+        },
+        {
+          stat: '90 days',
+          title: 'Placement guarantee on every hire',
+          desc: 'Every direct placement comes with a 90-day guarantee. If the hire does not work out within the first three months, we replace them at no additional cost. Full stop.',
+        },
+        {
+          stat: '100%',
+          title: 'Senior-led recruitment, every time',
+          desc: 'Your role is never handed to a junior recruiter. Every search is led by a senior talent partner who has personally placed engineers in your industry before.',
+        },
+        {
+          stat: '48 hrs',
+          title: 'Response time on every brief',
+          desc: 'Send us a role brief and you will hear back within 48 hours with our initial assessment, market feedback, and a realistic timeline — not a sales pitch.',
+        },
+        {
+          stat: 'Zero',
+          title: 'Upfront fees on direct placement',
+          desc: 'We work on a success-only basis for direct placement. You pay nothing until we find the right person and they start. No retainers, no risk.',
+        },
+      ].map((item, i) => (
+        <FadeIn key={i} delay={i * 0.1}>
+          <div style={{
+            backgroundColor: i === 0 ? '#1a1a1a' : '#fafafa',
+            borderRadius: '16px',
+            padding: '36px',
+            border: `1px solid ${i === 0 ? '#1a1a1a' : '#ebebeb'}`,
+            height: '100%',
+          }}>
+            <p style={{
+              fontSize: '32px',
+              fontWeight: '800',
+              color: i === 0 ? '#4f46e5' : '#4f46e5',
+              letterSpacing: '-1px',
+              marginBottom: '8px',
+              fontFamily: 'Bricolage Grotesque, sans-serif',
+            }}>{item.stat}</p>
+            <h3 style={{
+              fontSize: '16px',
+              fontWeight: '700',
+              color: i === 0 ? '#fff' : '#1a1a1a',
+              marginBottom: '12px',
+              lineHeight: '1.3',
+            }}>{item.title}</h3>
+            <p style={{
+              fontSize: '14px',
+              color: i === 0 ? '#aaa' : '#666',
+              lineHeight: '1.7',
+            }}>{item.desc}</p>
           </div>
-        </section>
-
+        </FadeIn>
+      ))}
+    </div>
+  </div>
+</section>
         <Footer />
       </main>
     </PageTransition>
